@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="imagem/calculadora.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <div class="tela"><input id="result" type="text" readonly></div>
+        <div id="calculator">
+            <button onclick="clearResult()" class="junta3" id="vermelho">C</button>
+            <button onclick="appendNumber('7')" class="junta3">7</button>
+            <button onclick="appendNumber('8')" class="junta3">8</button>
+            <button onclick="appendNumber('9')" class="junta3">9</button>
+            <button onclick="appendOperator('+')" class="junta2">+</button>
+            <button onclick="appendNumber('4')" class="junta2">4</button>
+            <button onclick="appendNumber('5')" class="junta2">5</button>
+            <button onclick="appendNumber('6')" class="junta2">6</button>
+            <button onclick="appendOperator('-')" class="junta1">-</button>
+            <button onclick="appendNumber('1')" class="junta1">1</button>
+            <button onclick="appendNumber('2')" class="junta1">2</button>
+            <button onclick="appendNumber('3')" class="junta1">3</button>
+            <button onclick="appendOperator('*')" class="junta">*</button>
+            <button onclick="appendNumber('0')" class="junta">0</button>
+            <button onclick="calculateResult()" class="junta">=</button>
+            <button onclick="appendOperator('/')" class="junta">/</button>
+            <span>Calculadora</span>
+        </div>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
