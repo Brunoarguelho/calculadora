@@ -115,5 +115,17 @@ span{
 /*----------------------------media screen---------------------*/
 
 @media screen and (max-width: 1025px) {
+    span{
+        left: 45%;
+    }
+}
+
+@media screen and (max-width: 500px){
+   span{
+    left: 40%;
+   }
+}
+
+@media screen and (max-width: 460px) {
     
 }
