@@ -110,6 +110,8 @@ span{
     text-shadow: 0 0 5px #ffffff29;
     top: 90%;
     left: 47%;
+    color: rgba(240, 255, 255, 0.123);
+    text-shadow: none;
 }
 
 /*----------------------------media screen---------------------*/
@@ -127,37 +129,48 @@ span{
 }
 
 @media screen and (max-width: 460px) {
+    main{
+        width: 100%;
+        height: 100%;
+    }
     #calculator{
-        width: 400px;
+       width: 100%;
     }
 
     .tela{
-        top: 10%; 
+        top: 0;
     }
 
     .tela input{
-        width: 380px; 
+        width: 340px; 
+        height: 200px;
     }
 
     .junta{
-        margin-top: -48px;
+        margin-top: -45px;
     }
     
     .junta1{
-        margin-top: -48px;
+        margin-top: -45px;
     }
     
     .junta2{
-        margin-top: -48px;
+        margin-top: -45px;
+    }
+
+    .junta3{
+        margin-top: 200px;
     }
 
     button{
-        width: 89px;
-        height: 89px;
+        width: 80px;
+        height: 80px;
     }
 
     span{
-        top: 86%;
+        top: 93%;
         left: 40%;
+        color: rgba(240, 255, 255, 0.123);
+        text-shadow: none;
     }
 }
